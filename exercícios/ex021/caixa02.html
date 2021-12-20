@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: rgb(119, 119, 119);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            text-transform: lowercase;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(94, 94, 94)
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        
+    </section>
+        <section id="noticias">
+            <article>
+                 <h2>Notícia sobre o #</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed aliquam modi laudantium ipsum reiciendis amet et, officiis numquam pariatur! Ipsa eius maiores corporis molestias consectetur officia magni, vitae sint odio.</p>
+                <aside>
+                    <p>Artigo escrito por Matt pvp</p>
+                </aside>
+            </article>
+    </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Matt</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(to right, #F0C1F8, #9395BF);
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Calligraffitti', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Calligraffitti', Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Courgette', Arial, sans-serif;
+    font-weight: lighter;
+}
+
